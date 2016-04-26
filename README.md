@@ -1,6 +1,6 @@
-# honey-dipper-template
+# honey-dipper-[your-dipper-name]
 
-Template for a developing a Honey dipper. This is just a suggested structure for quickly developing dippers according to certain conventions, or opinions, required by the framework.
+Template for developing a Honey dipper. This is just a suggested structure for quickly developing dippers according to certain conventions, or opinions, required by the framework.
 
 ### Making It Your Own
 
