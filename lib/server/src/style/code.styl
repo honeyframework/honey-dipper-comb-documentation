@@ -1,0 +1,17 @@
+code {
+  @extend .color-code-back;
+  @extend .color-code-label;
+  padding: 4px 8px;
+  border-radius: 3px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.code-list {
+  @extend .scaffold;
+  @extend .scaffold.col;
+  @extend .scaffold.col.bubble-spacing-small;
+  @extend .scaffold.col.bubble-spacing-small.only-stack;
+  $bubble-spacing-in-col(4px);
+  align-items: flex-start;
+}

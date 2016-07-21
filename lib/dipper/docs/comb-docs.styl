@@ -1,0 +1,194 @@
+$brand = #FE9803;
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #D8D8D8;
+  padding: 0;
+  margin: 0;
+  border-top: 3px solid $brand;
+}
+
+h1 {
+  margin: -4px 0 0 40px;
+  padding: 0;
+  font-size: 16px;
+  color: $brand;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+$radius = 4px;
+
+code {
+  background-color: $brand;
+  padding: 2px 4px;
+  font-size: 12px;
+  border-radius: 2px;
+  color: white;
+}
+
+.hny-specs {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
+
+  > * {
+    margin-right: 40px;
+    margin-bottom: 40px;
+  }
+
+  .hny-spec,
+  .hny-spec-palette {
+    background-color: white;
+    border-radius: $radius;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+      margin: 0;
+      padding: 10px;
+      font-size: 15px;
+    }
+
+    .hny-spec-details,
+    .palette-list {
+
+      background-color: #eee;
+      padding: 20px 20px 0 20px;
+      margin: 0;
+      list-style: none;
+      display: flex;
+      max-width: 760px;
+      flex-wrap: wrap;
+      align-items: flex-start;
+
+      > * {
+        margin-right: 20px;
+        margin-bottom: 20px;
+        flex: 0;
+      }
+
+      .palette-item {
+        min-width: 200px;
+        height: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        border-radius: $radius;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
+        font-size: 12px;
+      }
+
+      .color-map-item {
+        height: 25px;
+        border-radius: $radius;
+      }
+
+      .color-map-item {
+        width: 250px;
+      }
+    }
+
+    .color-map {
+      .label {
+        margin: 5px 0;
+        font-size: 12px;
+      }
+    }
+  }
+}
+
+$col-margin = #B1CCA3;
+$col-padding = #F4C794;
+$col-container = #99BEE4;
+
+.spacing-parent {
+  background-color: $col-margin;
+  display: flex;
+  .spacing-child-wrap {
+    background-color: $col-padding;
+    display: flex;
+    .spacing-child {
+      width: 25px;
+      height: 25px;
+      background-color: $col-container;
+    }
+  }
+
+  &.row {
+    padding: 15px 0 15px 15px;
+    .spacing-child-wrap {
+      flex-direction: row;
+      .spacing-child {
+        margin: 0 15px 0 0;
+      }
+    }
+  }
+  &.col {
+    padding: 15px 15px 0 15px;
+    .spacing-child-wrap {
+      flex-direction: column;
+      .spacing-child {
+        margin: 0 0 15px 0;
+      }
+    }
+  }
+}
+
+.scaffold {
+  display: flex;
+  align-items: flex-start;
+  &.row {
+    flex-direction: row;
+  }
+  &.col {
+    flex-direction: column;
+  }
+}
+
+.spacing-definition {
+  border-radius: $radius;
+  > * {
+    margin-bottom: 15px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.api {
+  width: 300px;
+}
+
+.typo-item {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  align-items: flex-start;
+  padding: 15px;
+  border-radius: $radius;
+  > * {
+    margin-bottom: 10px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.hoverer {
+  cursor: pointer;
+  &:hover {
+    opacity: 0.7;
+  }
+}

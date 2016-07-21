@@ -1,0 +1,220 @@
+.generated-ui .scaffold-back-default {
+  background-color: #f4f4f5;
+}
+.generated-ui .scaffold-back-alt {
+  background-color: #f2fcff;
+}
+.generated-ui .input-border-color {
+  background-color: #a7a7a7;
+}
+.generated-ui .input-text-color {
+  color: #a7a7a7;
+}
+.generated-ui .input-text-value-color {
+  color: #000;
+}
+.generated-ui .input-text-selected-color {
+  color: #62539f;
+}
+.generated-ui .nav-back {
+  background-color: #24232b;
+}
+.generated-ui .nav-color {
+  color: #fff;
+}
+.generated-ui .nav-color-selected {
+  undefined: #62539f;
+}
+.generated-ui .type-default-color {
+  color: #a7a7a7;
+}
+.generated-ui .type-heading-color {
+  color: #476aa7;
+}
+.generated-ui .msg-success {
+  background-color: #3cc396;
+}
+.generated-ui .msg-error {
+  background-color: #c33c3c;
+}
+.generated-ui .msg-warning {
+  background-color: #d27b2d;
+}
+.generated-ui .msg-info {
+  background-color: #ccc;
+}
+.generated-ui .msg-back {
+  background-color: #fff;
+}
+.generated-ui .sitemap-back {
+  background-color: #f4f4f5;
+}
+.generated-ui .sitemap-color {
+  color: #242d30;
+}
+.generated-ui #mortgagelyfe-root {
+  height: 100%;
+}
+.generated-ui .wrap {
+  flex-wrap: wrap;
+}
+.generated-ui .fill {
+  flex: 1;
+}
+.generated-ui .center {
+  align-items: center;
+}
+.generated-ui .baseline {
+  align-items: baseline;
+}
+.generated-ui .center-center {
+  align-items: center;
+  justify-content: center;
+}
+.generated-ui .stretch {
+  width: 100%;
+  height: 100%;
+}
+.generated-ui .stretch-row {
+  align-items: stretch;
+  height: 100%;
+}
+.generated-ui .stretch-col {
+  width: 100%;
+}
+.generated-ui .space-between {
+  justify-content: space-between;
+}
+.generated-ui .dead-center {
+  justify-content: center;
+  align-items: center;
+}
+.generated-ui .no-shrink {
+  flex-shrink: 0;
+}
+.generated-ui .scaffold {
+  display: flex;
+}
+.generated-ui .scaffold.row {
+  flex-direction: row;
+}
+.generated-ui .scaffold.row.bubble-spacing-small {
+  padding: 10px 0 0 10px;
+}
+.generated-ui .scaffold.row.bubble-spacing-small > * {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.generated-ui .scaffold.row.bubble-spacing-small.only-children {
+  padding: 0 !important;
+}
+.generated-ui .scaffold.row.bubble-spacing-default {
+  padding: 15px 0 0 15px;
+}
+.generated-ui .scaffold.row.bubble-spacing-default > * {
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.generated-ui .scaffold.row.bubble-spacing-default.only-children {
+  padding: 0 !important;
+}
+.generated-ui .scaffold.row.bubble-spacing-large {
+  padding: 30px 0 0 30px;
+}
+.generated-ui .scaffold.row.bubble-spacing-large > * {
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+.generated-ui .scaffold.row.bubble-spacing-large.only-children {
+  padding: 0 !important;
+}
+.generated-ui .scaffold.row.capture-spacing-small > * {
+  margin: 10px 10px 10px 0;
+}
+.generated-ui .scaffold.row.capture-spacing-small > *:first-child {
+  margin-left: 10px;
+}
+.generated-ui .scaffold.row.capture-spacing-default > * {
+  margin: 15px 15px 15px 0;
+}
+.generated-ui .scaffold.row.capture-spacing-default > *:first-child {
+  margin-left: 15px;
+}
+.generated-ui .scaffold.row.capture-spacing-large > * {
+  margin: 30px 30px 30px 0;
+}
+.generated-ui .scaffold.row.capture-spacing-large > *:first-child {
+  margin-left: 30px;
+}
+.generated-ui .scaffold.row.both-ends {
+  justify-content: space-between;
+}
+.generated-ui .scaffold.col {
+  flex-direction: column;
+}
+.generated-ui .scaffold.col.bubble-spacing-small {
+  padding: 10px;
+}
+.generated-ui .scaffold.col.bubble-spacing-small > * {
+  margin-bottom: 10px;
+}
+.generated-ui .scaffold.col.bubble-spacing-small > *:last-child {
+  margin-bottom: 0;
+}
+.generated-ui .scaffold.col.bubble-spacing-small.only-children {
+  padding: 0 !important;
+}
+.generated-ui .scaffold.col.bubble-spacing-default {
+  padding: 15px;
+}
+.generated-ui .scaffold.col.bubble-spacing-default > * {
+  margin-bottom: 15px;
+}
+.generated-ui .scaffold.col.bubble-spacing-default > *:last-child {
+  margin-bottom: 0;
+}
+.generated-ui .scaffold.col.bubble-spacing-default.only-children {
+  padding: 0 !important;
+}
+.generated-ui .scaffold.col.bubble-spacing-large {
+  padding: 30px;
+}
+.generated-ui .scaffold.col.bubble-spacing-large > * {
+  margin-bottom: 30px;
+}
+.generated-ui .scaffold.col.bubble-spacing-large > *:last-child {
+  margin-bottom: 0;
+}
+.generated-ui .scaffold.col.bubble-spacing-large.only-children {
+  padding: 0 !important;
+}
+.generated-ui .scaffold.col.capture-spacing-small > * {
+  margin: 0 10px 10px 10px;
+}
+.generated-ui .scaffold.col.capture-spacing-small > *:first-child {
+  margin-top: 10px;
+}
+.generated-ui .scaffold.col.capture-spacing-default > * {
+  margin: 0 15px 15px 15px;
+}
+.generated-ui .scaffold.col.capture-spacing-default > *:first-child {
+  margin-top: 15px;
+}
+.generated-ui .scaffold.col.capture-spacing-large > * {
+  margin: 0 30px 30px 30px;
+}
+.generated-ui .scaffold.col.capture-spacing-large > *:first-child {
+  margin-top: 30px;
+}
+.generated-ui p {
+  font-size: 14px;
+}
+.generated-ui label {
+  font-size: 12px;
+}
+.generated-ui small {
+  font-size: 8px;
+}
+.generated-ui strong {
+  font-size: 14px;
+}

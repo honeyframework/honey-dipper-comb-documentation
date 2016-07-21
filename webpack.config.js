@@ -1,16 +1,26 @@
 var path = require('path');
 
+var entry = {};
+
+if (process.env.WEBPACK_TARGET === 'web') {
+  // <-- build the script for the doc site
+  entry['build/comb-documentation/comb-documentation'] = './lib/documentation/index.js';
+} else if (process.env.WEBPACK_TARGET === 'node') {
+  // <-- build the actual npm dipper fn
+  entry['build/honey-dipper-comb-documentation'] = './lib/dipper/index.js';
+  entry['./lib/dipper/docs/comb-docs.styl'];
+  entry['./node_modules/stylus/index.js'];
+}
+
 module.exports = {
-  entry: [
-    './lib/index.js'
-  ],
+  entry: entry,
   output: {
-    filename: 'honey-dipper-NAME.js',
-    path: path.resolve(__dirname, 'build/'),
-    library: 'honey-dipper-NAME',
+    filename: '[name].js',
+    path: path.resolve(__dirname),
+    library: 'honey-dipper-comb-documentation',
     libraryTarget: 'umd'
   },
-  target: 'node',
+  target: process.env.WEBPACK_TARGET,
   module: {
     loaders: [
       {
@@ -21,6 +31,10 @@ module.exports = {
       {
         test: /\.css$/,
         loader: "style-loader!css-loader"
+      },
+      {
+        test: /\.json$/,
+        loader: "json-loader"
       },
       {
         test: /\.(png|jpg|jpeg|gif|svg|woff|woff2|ttf|eot)$/,

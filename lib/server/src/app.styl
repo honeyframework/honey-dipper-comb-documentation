@@ -1,0 +1,20 @@
+@import './style/palette';
+@import './style/color-map';
+@import './style/reset';
+@import './style/scaffold';
+@import './style/content';
+@import './style/code';
+@import './style/helpers';
+
+// We need to import using stylus,
+// since the styles are heavily dependent on
+// the above. It would be nice to import
+// the .styl file in the component that uses it
+// with webpack, but it won't know about the style guide.
+
+@import './menu/menu';
+@import './descriptors/palette';
+
+body {
+  font-family: 'Lato', sans-serif;
+}
