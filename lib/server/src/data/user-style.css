@@ -4,6 +4,27 @@
 .generated-ui .scaffold-back-alt {
   background-color: #f2fcff;
 }
+.generated-ui .nav-back {
+  background-color: #24232b;
+}
+.generated-ui .nav-color {
+  color: #fff;
+}
+.generated-ui .nav-color-selected {
+  undefined: #62539f;
+}
+.generated-ui .panel-back {
+  background-color: #3b3a44;
+}
+.generated-ui .panel-color {
+  color: #fff;
+}
+.generated-ui .panel-color-selected {
+  undefined: #62539f;
+}
+.generated-ui .page-content-back {
+  background-color: #eff3f6;
+}
 .generated-ui .input-border-color {
   background-color: #a7a7a7;
 }
@@ -15,15 +36,6 @@
 }
 .generated-ui .input-text-selected-color {
   color: #62539f;
-}
-.generated-ui .nav-back {
-  background-color: #24232b;
-}
-.generated-ui .nav-color {
-  color: #fff;
-}
-.generated-ui .nav-color-selected {
-  undefined: #62539f;
 }
 .generated-ui .type-default-color {
   color: #a7a7a7;
@@ -105,8 +117,26 @@
   margin-right: 10px;
   margin-bottom: 10px;
 }
+.generated-ui .scaffold.row.bubble-spacing-small > *:last-child {
+  margin-right: 0;
+}
 .generated-ui .scaffold.row.bubble-spacing-small.only-children {
   padding: 0 !important;
+}
+.generated-ui .scaffold.row.bubble-spacing-small-new {
+  padding: 10px 0 0 10px;
+}
+.generated-ui .scaffold.row.bubble-spacing-small-new > * {
+  margin-right: 10px;
+}
+.generated-ui .scaffold.row.bubble-spacing-small-new > *:last-child {
+  margin-right: 0;
+}
+.generated-ui .scaffold.row.bubble-spacing-small-new.only-children {
+  padding: 0 !important;
+}
+.generated-ui .scaffold.row.bubble-spacing-small-new.wrap {
+  margin-bottom: 10px;
 }
 .generated-ui .scaffold.row.bubble-spacing-default {
   padding: 15px 0 0 15px;
@@ -114,6 +144,9 @@
 .generated-ui .scaffold.row.bubble-spacing-default > * {
   margin-right: 15px;
   margin-bottom: 15px;
+}
+.generated-ui .scaffold.row.bubble-spacing-default > *:last-child {
+  margin-right: 0;
 }
 .generated-ui .scaffold.row.bubble-spacing-default.only-children {
   padding: 0 !important;
@@ -124,6 +157,9 @@
 .generated-ui .scaffold.row.bubble-spacing-large > * {
   margin-right: 30px;
   margin-bottom: 30px;
+}
+.generated-ui .scaffold.row.bubble-spacing-large > *:last-child {
+  margin-right: 0;
 }
 .generated-ui .scaffold.row.bubble-spacing-large.only-children {
   padding: 0 !important;
