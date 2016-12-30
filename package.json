@@ -19,7 +19,7 @@
     "url": "git+https://github.com/honeyframework/honey-dipper-template.git"
   },
   "author": "you",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/honeyframework/honey-dipper-template/issues"
   },
