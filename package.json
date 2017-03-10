@@ -60,6 +60,6 @@
   "files": [
     "build",
     "lib",
-    "README.md"
+    ".babelrc"
   ]
 }
