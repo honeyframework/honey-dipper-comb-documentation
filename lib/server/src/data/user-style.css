@@ -1,23 +1,56 @@
 .generated-ui .page-back {
   background-color: #e9e6e1;
 }
+.generated-ui .menu-bar-back {
+  background-color: #7a8e8d;
+}
+.generated-ui .menu-bar-trimming {
+  color: #5b6a69;
+}
+.generated-ui .title-color {
+  color: #2a3245;
+}
+.generated-ui .label-color {
+  color: #2a3245;
+}
+.generated-ui .component-border {
+  undefined: rgba(0,0,0,0.12);
+}
+.generated-ui .component-background {
+  undefined: #fff;
+}
+.generated-ui .component-background-hover {
+  undefined: #f2f2f2;
+}
 .generated-ui .element-back {
   background-color: #fff;
 }
+.generated-ui .element-inactive-back {
+  background-color: rgba(250,250,250,0.5);
+}
 .generated-ui .element-border-color {
-  color: #d1d0d0;
+  color: #2e3647;
+}
+.generated-ui .element-border-inactive-color {
+  color: #bababa;
+}
+.generated-ui .element-border-valid-color {
+  color: #209d90;
+}
+.generated-ui .element-border-invalid-color {
+  color: #8b182c;
 }
 .generated-ui .element-text-color {
   color: #2a3245;
 }
-.generated-ui .element-focus-color {
+.generated-ui .element-text-inactive-color {
   color: #2a3245;
 }
-.generated-ui .element-label-color {
+.generated-ui .element-text-valid-color {
   color: #2a3245;
 }
-.generated-ui .element-fineprint-color {
-  color: #8f9297;
+.generated-ui .element-text-invalid-color {
+  color: #8b182c;
 }
 .generated-ui .button-back {
   background-color: #2a3245;
@@ -28,9 +61,15 @@
 .generated-ui .button-border-color {
   color: #d1d0d0;
 }
-.generated-ui .nav-back {
-  background-color: #24232b;
+.generated-ui .link-color {
+  color: #2a3245;
 }
-.generated-ui .text-color-alt {
+.generated-ui .link-hover-color {
+  color: #262d3e;
+}
+.generated-ui .type-color {
   color: #433238;
+}
+.generated-ui .type-fineprint-color {
+  color: #8f9297;
 }
