@@ -12,7 +12,8 @@
     "build-docs-src-watch": "WEBPACK_WATCH=true webpack --config ./lib/server/webpack.config.js",
     "build-watch": "WEBPACK_BUILD=watch WEBPACK_TARGET=node npm run webpack && WEBPACK_BUILD=watch WEBPACK_TARGET=web npm run webpack",
     "webpack": "webpack",
-    "mocha": "mocha \"lib/**/*.spec.js\" --compilers js:babel-core/register --recursive"
+    "mocha": "mocha \"lib/**/*.spec.js\" --compilers js:babel-core/register --recursive",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -59,5 +60,10 @@
     "stylus-loader": "^2.0.0",
     "webpack": "^1.13.1",
     "webpack-dev-middleware": "^1.6.1"
-  }
+  },
+  "files": [
+    "build",
+    "lib",
+    "README.md"
+  ]
 }
